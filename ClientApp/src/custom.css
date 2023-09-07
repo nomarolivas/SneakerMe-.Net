@@ -1,0 +1,225 @@
+/* Provide sufficient contrast against white background
+a {
+  color: #0366d6;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+} */
+
+
+.websiteTitle{
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+  color: green;
+  text-align: center;
+}
+
+
+.link{
+  color: black;
+  padding-bottom: 50px;
+  margin: 20px;
+  font-weight: 700;
+
+}
+
+.link:hover{
+  color: blue;
+}
+
+
+.pageTitle{
+  background-color: #f1f1f1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pageTitleShoe{
+  margin-left: 20px;
+}
+
+.pageTitleShoeDesc{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.shoesName{
+  color: blue;
+}
+
+.salePageTitle{
+  margin-left: 20px;
+  
+}
+
+
+.salePageDesc{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.salePrice{
+  color: grey;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+
+.column{
+  float:left;
+  width: 31%;
+  padding: 10px;
+  height: 300px;
+  text-align: center; 
+  padding-bottom: 70px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.addToCart{
+  border-radius: 12px;
+  padding: 10px 25px;
+  font-size: 15px;
+
+}
+
+.footer{
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pageTitleHistory{
+  text-align: center;
+}
+
+
+.coverPic{
+  padding: 0;
+  margin: 0 auto;
+}
+
+.sliderImages{
+  padding: 0;
+  margin: 0 auto;
+}
+
+.dividerForPara{
+  padding-top: 20px;
+}
+.dividerForParaBottom{
+  padding-top: 100px;
+
+}
+
+.historyPic{
+  float: left;
+  height: 30%;
+  width: 30%;
+  padding-left: 40px;
+}
+
+
+.historyBio{
+  text-align: center;
+  
+}
+
+.offerBio{
+  text-align: center;
+  padding-right: 20px;
+
+}
+
+.offerBioPara{
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 20px;
+  padding-right: 20px;
+  resize: none;
+}
+
+.historyBioPara{
+  font-size: 20px;
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  resize: none;
+}
+
+.shoeShelf{
+  float: right;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+
+.logInTop{
+  padding-top: 10px;
+}
+
+.loginPage{
+  text-align: center;
+}
+
+.logInForm{
+  border-style: inset;
+  border-width: 10px;
+  border-color: rgb(0, 239, 0);
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.footerLogIn{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;   
+}
+
+
+.latestReleases{
+  padding-top: 20px;
+  padding-left: 20px;
+}
