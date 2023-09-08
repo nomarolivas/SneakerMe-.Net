@@ -7,20 +7,20 @@ import { LoginMenu } from './api-authorization/LoginMenu';
 export class NavMenu extends Component {
   static displayName = NavMenu.name;
 
-  // constructor (props) {
-  //   super(props);
+  constructor (props) {
+    super(props);
 
-  //   this.toggleNavbar = this.toggleNavbar.bind(this);
-  //   this.state = {
-  //     collapsed: true
-  //   };
-  // }
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
 
-  // toggleNavbar () {
-  //   this.setState({
-  //     collapsed: !this.state.collapsed
-  //   });
-  // }
+  toggleNavbar () {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
 
   render() {
     return (
@@ -30,17 +30,17 @@ export class NavMenu extends Component {
       //     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
       //     <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
       //       <ul className="navbar-nav flex-grow">
-              // <NavItem>
-              //   <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
-              // </NavItem>
+      //         <NavItem>
+      //           <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
+      //         </NavItem>
 
-              // <NavItem>
-              //   <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
-              // </NavItem>
+      //         <NavItem>
+      //           <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
+      //         </NavItem>
 
-              // <NavItem>
-              //   <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
-              // </NavItem>
+      //         <NavItem>
+      //           <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
+      //         </NavItem>
 
       //         <LoginMenu>
       //         </LoginMenu>
@@ -52,19 +52,6 @@ export class NavMenu extends Component {
       <Navbar className="navbar">
         <h1 className='websiteTitle'>SneakerMe</h1>
         <div className='tabLinks'>
-        {/* <NavItem>
-          <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
-        </NavItem>
-
-        <NavItem>
-          <NavLink tag={Link} className="text-dark" to="/counter">Counter</NavLink>
-        </NavItem>
-
-        <NavItem>
-          <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
-        </NavItem> */}
-
-        
 
           <Link className="link" to="/">Home</Link>
           <Link className="link" to="/Sneakers">Sneakers</Link>
@@ -73,8 +60,6 @@ export class NavMenu extends Component {
           <Link className="link" to="/Login">Login</Link>
        
         </div>
-
-
 
       </Navbar>
     );
