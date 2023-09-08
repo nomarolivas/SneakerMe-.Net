@@ -5,6 +5,7 @@ import { Home } from "./components/Home";
 import { Sneakers } from './components/Sneakers';
 import { Sale } from './components/Sale'
 import { About } from './components/About'
+import { Login } from './components/Login'
 
 const AppRoutes = [
   {
@@ -29,10 +30,10 @@ const AppRoutes = [
     element: <About />
   },
 
-  // {
-  //   path: '/Login',
-  //   element: <Login />
-  // },
+  {
+    path: '/Login',
+    element: <Login />
+  },
   {
     path: '/fetch-data',
     requireAuth: true,
