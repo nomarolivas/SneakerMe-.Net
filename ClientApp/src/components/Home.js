@@ -26,28 +26,17 @@ import React, { Component } from 'react'; //This was here before
 //     },
 //  ];
 
+
+
 export class Home extends Component {
   static displayName = Home.name;
 
+  
+
   render() {
-    // const [imageNum, setImageNum] = useState(1);
+
     return (
-      // <div>
-      //   <h1>Hello, world!</h1>
-      //   <p>Welcome to your new single-page application, built with:</p>
-      //   <ul>
-      //     <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-      //     <li><a href='https://facebook.github.io/react/'>React</a> for client-side code</li>
-      //     <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-      //   </ul>
-      //   <p>To help you get started, we have also set up:</p>
-      //   <ul>
-      //     <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-      //     <li><strong>Development server integration</strong>. In development mode, the development server from <code>create-react-app</code> runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-      //     <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration produces minified, efficiently bundled JavaScript files.</li>
-      //   </ul>
-      //   <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
-      // </div>
+          
       <div className="homePage">
 
       <div className='divider'>
@@ -56,36 +45,52 @@ export class Home extends Component {
 
           <div className="pageTitle">
 
-          
-
           </div>
 
-      <div className="image-slider">
-          
 
-      {/* <SimpleImageSlider
-      style={{ margin: '0 auto', padding: '0', width: '100% auto'}}
-          width= {1070} 
-          height={600}
-          navMargin={0}
-          images={sliderImages}
-          showBullets={true}
-         
-
-          showNavs={true}
-          autoPlay={true} 
-          onStartSlide = {(index, length) => {
-              setImageNum(index);
-          }}
-          autoPlayDelay = {4}
-                  
-      /> */}
-
-      </div>  
 
           <div className='dividerForPara'>
               <h1> </h1>
           </div>
+
+          {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            
+                            
+                            <img src={require('./images/stockPic2.jpeg')} alt="Stock pic 2" height={"600"} width={"100%"}></img>
+                            
+                            
+                        <div class="carousel-item ">
+                            <img src={require('./images/stockPic2.jpeg')} alt="Stock pic 2"></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={require('./images/stockPic3.jpeg')} alt="Stock pic 3"></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={require('./images/stockPic4.jpeg')} alt="Stock pic 4"></img>
+                        </div>
+                        <div class="carousel-item">
+                            <img src={require('./images/stockPic5.jpeg')} alt="Stock pic 5"></img>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+            </div>
+            </div> */}
+
+            
 
           <div className='latestReleases'>
               <h1> Latest Releases </h1>
@@ -94,36 +99,64 @@ export class Home extends Component {
           <div className="row">
 
           <div className="column">
-          <img src={require('./images/Jordan-1-L-F.webp')} alt="Air Jordan 1 Lost & Found" width="300" height="200"/>
-             <h3>Air Jordan 1 Lost & Found</h3>
+          <img src={require('./images/Jordan-1-L-F.webp')} alt="Air Jordan 1 Lost & Found" width="250" height="150"/>
+             <h3>Air Jordan 1</h3>
+             <h3>1 Lost & Found</h3>
              <p>$200</p>
+             <button className='addToCart'>Add to cart</button>
              
 
           </div>
 
           <div className="column">
-          <img src={require('./images/Air-Jordan-4-Retro-SB-Pine-Green-Product.webp')} alt="Air Jordan 4 SB Pine Green" width="300" height="200"/>
+          <img src={require('./images/Air-Jordan-4-Retro-SB-Pine-Green-Product.webp')} alt="Air Jordan 4 SB Pine Green" width="230" height="150"/>
              <h3>Air Jordan 4 SB Pine Green </h3>
              <p>$225</p>
+             <button className='addToCart'>Add to cart</button>
              
 
           </div>
 
           <div className="column">
 
-              <img src={require('./images/Yeezy-750.jpeg')} alt="Yeezy 750 Grey Gum" width="350" height="200"/>
+              <img src={require('./images/Yeezy-750.jpeg')} alt="Yeezy 750 Grey Gum" width="300" height="150"/>
               <h3>Adidas Yeezy 750 Grey Gum</h3>
               
               <p>$220</p>
+              <button className='addToCart'>Add to cart</button>
               
           </div>
       </div>
 
       <div className='footer'> Nomar Olivas @ 2023 </div> 
 
-  </div>
+ 
+
+        </div>
+
+
 
 
     );
   }
 }
+
+
+// function Slider() {
+//     $(".slider #1").fadeIn("fade, 500");
+//     $(".slider #1").delay(5500).hide("slide", { direction: 'left' }, 500);
+
+//     var sc = $(".slider img").size();
+//     var count = 2;
+
+//     setInterval(function (){
+//         $(".slider #" + count).show("slide",{direction:'right'}, 500);
+//         $(".slider #" + count).delay(5500).hide("slide", {direction:'left'}, 500);
+
+//         if(count == sc){
+//             count = 1;
+//         }else{
+//             count = count + 1;
+//           }
+//         }, 6500);
+//     }

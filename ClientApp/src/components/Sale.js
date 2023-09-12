@@ -23,7 +23,7 @@ export class Sale extends Component{
 
                     <div className="column">
 
-                        <img src={require('./images/adidas-Yeezy-Boost-350-V2-Cream.webp')} alt="Yeezy 350 Cream" width="280" height="200" />
+                        <img src={require('./images/adidas-Yeezy-Boost-350-V2-Cream.webp')} alt="Yeezy 350 Cream" width="200" height="140" />
                         <h3>Adidas Yeezy 350 Cream</h3>
                         <strike className="salePrice" >$220</strike>
                         <p>$120</p>
@@ -32,7 +32,7 @@ export class Sale extends Component{
 
                     <div className="column">
 
-                        <img src={require('./images/Adidas-Yeezy-500-Blush.webp')} alt="Yeezy 500 Blush" width="300" height="200" />
+                        <img src={require('./images/Adidas-Yeezy-500-Blush.webp')} alt="Yeezy 500 Blush" width="200" height="140" />
                         <h3>Adidas Yeezy 500 Blush</h3>
                         <strike className="salePrice">$200</strike>
                         <p>$100</p>
@@ -41,8 +41,8 @@ export class Sale extends Component{
 
                     <div className="column">
 
-                        <img src={require('./images/Yeezy-750.jpeg')} alt="Yeezy 750 Grey Gum" width="350" height="200" />
-                        <h3>Adidas Yeezy 750 Grey Gum</h3>
+                        <img src={require('./images/Yeezy-750.jpeg')} alt="Yeezy 750 Grey Gum" width="250" height="140" />
+                        <h3>Adidas Yeezy 750 Grey </h3>
                         <strike className="salePrice">$300</strike>
                         <p>$220</p>
                         <button className='addToCart'>Add to cart</button>
@@ -50,7 +50,7 @@ export class Sale extends Component{
 
                     <div className="column">
 
-                        <img src={require('./images/Yeezy-Slide-Bone.webp')} alt="Yeezy Slide Pure" width="300" height="200" />
+                        <img src={require('./images/Yeezy-Slide-Bone.webp')} alt="Yeezy Slide Pure" width="200" height="140" />
                         <h3>Adidas Yeezy Slide Pure</h3>
                         <strike className="salePrice">$120</strike>
                         <p>$80</p>
@@ -59,7 +59,7 @@ export class Sale extends Component{
 
                     <div className="column">
 
-                        <img src={require('./images/supreme_af1.jpeg')} alt="Supreme x Nike Air Force 1" width="300" height="200" />
+                        <img src={require('./images/supreme_af1.jpeg')} alt="Supreme x Nike Air Force 1" width="250" height="140" />
                         <h3>Supreme x Nike Air Force 1</h3>
                         <strike className="salePrice">$150</strike>
                         <p>$100</p>
