@@ -9,7 +9,7 @@ export class Sneakers extends Component{
         return(
             <div className="shoesPage">
                 <div className='divider'>
-                    {/* <h1> </h1> */}
+                    
 
                 </div>
 
